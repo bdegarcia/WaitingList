@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 text-center">Hot Restaurant</h1>
+            <p class="lead text-center">Please Make Your Reservation</p>
+            <div class="text-center">
+                <a href="/tables">
+                <button class="btn btn-lg btn-primary">
+                    <span class="fa fa-list-alt"></span>View Tables</button>
+                </a>
+                <a href="/">
+                    <button class="btn btn-lg btn-primary">
+                        <!--Font awesome: https://fontawesome.com/v4.7.0/icons/-->
+                        <span class="fa fa-home"></span>Home</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <!--Reservation card-->
+            <div class="card">
+                <div class="card-header">
+                    Reservations
+                </div>
+                <div class="card-body">
+                    <!--fill out form-->
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="reservation-name" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input type="text" class="form-control" id="phone-number" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="reservation-email"
+                                placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" id="reservation-id" placeholder="Unique ID">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <p>
+                <a href=#>API Table Link</a> |
+                <a href=#>API Wait List</a>
+        </div>
+    </div>
+</body>
+</html>
